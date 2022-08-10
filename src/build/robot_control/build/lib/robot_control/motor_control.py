@@ -28,7 +28,7 @@ class MotorSubscriber(Node):
         self.motor_left = msg.data[0]
         self.motor_right = msg.data[1]
         self.get_logger().info('Data received n°:"%s"', self.i)
-        self.i +=1
+        self.i += 1
 
 
 def main():

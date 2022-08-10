@@ -3,7 +3,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import Int16MultiArray
 
-import Control_V3
+import robot_control.Control_V3
 
 
 class MotorSubscriber(Node):

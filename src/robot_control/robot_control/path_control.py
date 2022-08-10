@@ -45,13 +45,10 @@ class PathControl(Node):
 def main(args=None):
     rclpy.init(args=args)
     path_controller = PathControl()
-
     rclpy.spin(path_controller)
-
     path_controller.destroy_node()
     rclpy.shutdown()
-
+    
 if __name__ == '__main__':
     main()
-
 

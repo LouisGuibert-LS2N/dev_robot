@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'motor_control = robot_control.motor_control:main'
+        	'path_control = robot_control.path_control:main',
+            	'motor_control = robot_control.motor_control:main',
         ],
     },
 )
