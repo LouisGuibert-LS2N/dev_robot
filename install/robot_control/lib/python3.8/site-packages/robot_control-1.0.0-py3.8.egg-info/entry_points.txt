@@ -1,0 +1,4 @@
+[console_scripts]
+motor_control = robot_control.motor_control:main
+path_control = robot_control.path_control:main
+

@@ -1,0 +1,48 @@
+[0.461s] Invoking command in '/home/louis/dev_robot/src/robot_control': PYTHONPATH=/home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/louis/dev_robot/build/robot_control/build install --prefix /home/louis/dev_robot/install/robot_control --record /home/louis/dev_robot/build/robot_control/install.log --single-version-externally-managed
+[0.620s] running egg_info
+[0.620s] creating ../../build/robot_control/robot_control.egg-info
+[0.620s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.621s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.621s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.621s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.621s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.622s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.649s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.650s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.650s] running build
+[0.650s] running build_py
+[0.651s] creating /home/louis/dev_robot/build/robot_control/build
+[0.651s] creating /home/louis/dev_robot/build/robot_control/build/lib
+[0.651s] creating /home/louis/dev_robot/build/robot_control/build/lib/robot_control
+[0.651s] copying robot_control/path_control.py -> /home/louis/dev_robot/build/robot_control/build/lib/robot_control
+[0.651s] copying robot_control/__init__.py -> /home/louis/dev_robot/build/robot_control/build/lib/robot_control
+[0.652s] copying robot_control/motor_control.py -> /home/louis/dev_robot/build/robot_control/build/lib/robot_control
+[0.652s] copying robot_control/Control_V3.py -> /home/louis/dev_robot/build/robot_control/build/lib/robot_control
+[0.652s] running install
+[0.653s] running install_lib
+[0.654s] creating /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control
+[0.654s] copying /home/louis/dev_robot/build/robot_control/build/lib/robot_control/path_control.py -> /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control
+[0.654s] copying /home/louis/dev_robot/build/robot_control/build/lib/robot_control/__init__.py -> /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control
+[0.654s] copying /home/louis/dev_robot/build/robot_control/build/lib/robot_control/motor_control.py -> /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control
+[0.654s] copying /home/louis/dev_robot/build/robot_control/build/lib/robot_control/Control_V3.py -> /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control
+[0.655s] byte-compiling /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control/path_control.py to path_control.cpython-38.pyc
+[0.656s] byte-compiling /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control/__init__.py to __init__.cpython-38.pyc
+[0.656s] byte-compiling /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control/motor_control.py to motor_control.cpython-38.pyc
+[0.657s] byte-compiling /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control/Control_V3.py to Control_V3.cpython-38.pyc
+[0.657s]   File "/home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control/Control_V3.py", line 71
+[0.657s]     match self.motor_ctrl_state:
+[0.657s]           ^
+[0.657s] SyntaxError: invalid syntax
+[0.657s] 
+[0.658s] running install_data
+[0.658s] creating /home/louis/dev_robot/install/robot_control/share/ament_index
+[0.658s] creating /home/louis/dev_robot/install/robot_control/share/ament_index/resource_index
+[0.658s] creating /home/louis/dev_robot/install/robot_control/share/ament_index/resource_index/packages
+[0.658s] copying resource/robot_control -> /home/louis/dev_robot/install/robot_control/share/ament_index/resource_index/packages
+[0.659s] copying package.xml -> /home/louis/dev_robot/install/robot_control/share/robot_control
+[0.659s] running install_egg_info
+[0.660s] Copying ../../build/robot_control/robot_control.egg-info to /home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages/robot_control-1.0.0-py3.8.egg-info
+[0.661s] running install_scripts
+[0.674s] Installing motor_control = robot_control.motor_control:mainpath_control script to /home/louis/dev_robot/install/robot_control/lib/robot_control
+[0.675s] writing list of installed files to '/home/louis/dev_robot/build/robot_control/install.log'
+[0.692s] Invoked command in '/home/louis/dev_robot/src/robot_control' returned '0': PYTHONPATH=/home/louis/dev_robot/install/robot_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/louis/dev_robot/build/robot_control/build install --prefix /home/louis/dev_robot/install/robot_control --record /home/louis/dev_robot/build/robot_control/install.log --single-version-externally-managed
