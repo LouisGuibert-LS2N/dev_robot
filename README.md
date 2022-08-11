@@ -10,7 +10,7 @@
 
 2- Download the package
 
-    git clone https://github.com/... TODO
+    git clone https://github.com/LouisSEC/dev_robot/tree/main/src
 
 3- Build the package
 
