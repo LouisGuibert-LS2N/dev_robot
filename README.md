@@ -33,6 +33,9 @@
 
 ## **RUNNING PACKAGE**
 
+**Be sure to have connected the Lidar to your device or virtual machine.**
+**For vitual machine you have to selection the USB device in the parameter**
+
 ### WITH A SINGLE sh file :
 
 In your workspace :
