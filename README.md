@@ -5,12 +5,12 @@
 ### motor control & path control
 1- Create a workspace
 
-    mkdir -p ~/dev_robot_ws/src
-    cd ~/dev_robot_ws/src
+    mkdir -p ~/dev_robot_ws
+    cd ~/dev_robot_ws
 
 2- Download the package
 
-    git clone https://github.com/LouisSEC/dev_robot/tree/main/src
+    git clone https://github.com/LouisSEC/dev_robot.git
 
 3- Build the package
 
