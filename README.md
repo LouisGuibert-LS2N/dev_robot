@@ -89,11 +89,11 @@ PATH: ~/dev_robot_ws/install/robot_control/lib/pyhton3.8/site-packages/robot_con
 This file correspond to the connection between your code and the robot.
 All function are defined to have access to the robot / send data to the robot
 
-### motor_control
+### Motor_control
 This file is a ros2 node subscriber to the topic **motor_command**.
 It is this file who send continuously the data (speed and orientation of each motor) to the robot
 
-### path_control
+### Path_control
 This file is a ros2 node publisher to the topic **motor_command** and subscriber to the topic **scan**
 This file decide which command sending to the robot, depending on sensors (here lidar)
 You can define **cruise speed**, and path control
