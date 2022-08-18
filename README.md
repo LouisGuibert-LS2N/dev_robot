@@ -19,8 +19,8 @@
 ### lidar control
 1- Create a workspace
 
-    mkdir -p ~/lidar_ws/src
-    cd ~/lidar_ws/src
+    mkdir -p ~/lidar_ws
+    cd ~/lidar_ws
 
 2- Download the package
 
